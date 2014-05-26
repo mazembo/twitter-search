@@ -1,0 +1,39 @@
+
+
+<div class="page-header">
+  <h1> Here will be displayed the search results </h1>
+  <h2> The content of groups : <%= @groups.inspect %> </h2>
+  <h2> The number of tweets is: <%= @tweets.count %></h2>
+
+
+</div>
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th>Number</th>
+    <th>Name</th>
+    <th>Location</th>
+    <th>Tweet</th>
+    <th>Time Tweeted </th>
+
+  </tr>
+  </thead>
+  <tbody>
+  <% @number = 0 %>
+  <% @tweets.each do |tweet| %>
+
+        <% @number += 1 %>
+      <tr>
+        <td><%= @number %></td>
+        <td><%= tweet.user.screen_name%></td>
+        <td><%= tweet.user.location %></td>
+        <td><%= tweet.text %></td>
+        <td><%= tweet.created_at %></td>
+
+      </tr>
+  <% end %>
+
+  </tbody>
+</table>
+
+
