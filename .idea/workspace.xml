@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tweets_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tweets_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/tweets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="850">
+            <state line="34" column="17" selection-start="986" selection-end="986" vertical-scroll-proportion="0.7675214" vertical-offset="129" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -104,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tweets/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="43" selection-start="611" selection-end="611" vertical-scroll-proportion="0.58391607" vertical-offset="142" max-vertical-offset="765">
+            <state line="21" column="19" selection-start="361" selection-end="361" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -138,8 +138,8 @@
         <option value="$PROJECT_DIR$/search.rb" />
         <option value="$PROJECT_DIR$/app/controllers/group_by_method.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/tweets_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/tweets/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/tweets_controller.rb" />
       </list>
     </option>
   </component>
@@ -849,16 +849,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/tweets_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/tweets/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="850">
+        <state line="21" column="19" selection-start="361" selection-end="361" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tweets/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/tweets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="43" selection-start="611" selection-end="611" vertical-scroll-proportion="0.58391607" vertical-offset="142" max-vertical-offset="765">
+        <state line="34" column="17" selection-start="986" selection-end="986" vertical-scroll-proportion="0.7675214" vertical-offset="129" max-vertical-offset="1020">
           <folding />
         </state>
       </provider>
