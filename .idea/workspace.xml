@@ -27,7 +27,22 @@
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="79" column="0" selection-start="2654" selection-end="2654" vertical-scroll-proportion="-20.192308" vertical-offset="818" max-vertical-offset="1445">
-              <folding />
+              <folding>
+                <marker date="1401272143566" expanded="true" signature="31:2652" placeholder="..." />
+                <marker date="1401272143566" expanded="true" signature="38:1767" placeholder="..." />
+                <marker date="1401272143566" expanded="true" signature="371:507" placeholder="..." />
+                <marker date="1401272143566" expanded="true" signature="1774:2644" placeholder="..." />
+                <marker date="1401272143566" expanded="true" signature="1813:2426" placeholder="..." />
+                <marker date="1401272143566" expanded="true" signature="1842:2419" placeholder="..." />
+                <marker date="1401272143566" expanded="true" signature="1870:2410" placeholder="..." />
+                <marker date="1401272143566" expanded="true" signature="1954:2082" placeholder="..." />
+                <marker date="1401272143566" expanded="true" signature="2166:2377" placeholder="..." />
+                <marker date="1401272143566" expanded="true" signature="2191:2364" placeholder="..." />
+                <marker date="1401272143566" expanded="true" signature="2451:2613" placeholder="..." />
+                <marker date="1401272143566" expanded="true" signature="2471:2536" placeholder="..." />
+                <marker date="1401272143566" expanded="true" signature="2495:2526" placeholder="..." />
+                <marker date="1401272143566" expanded="true" signature="2559:2605" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,16 +77,16 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.3979933" vertical-offset="0" max-vertical-offset="1088">
+            <state line="8" column="8" selection-start="202" selection-end="202" vertical-scroll-proportion="0.22742476" vertical-offset="0" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tweets_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/tweets_controller.rb">
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="46" selection-start="23" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+            <state line="31" column="11" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -145,6 +160,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
         <option value="$PROJECT_DIR$/app/views/tweets/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -200,6 +216,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bluereport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bluereport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bluereport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -821,7 +851,22 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="0" selection-start="2654" selection-end="2654" vertical-scroll-proportion="-20.192308" vertical-offset="818" max-vertical-offset="1445">
-          <folding />
+          <folding>
+            <marker date="1401272143566" expanded="true" signature="31:2652" placeholder="..." />
+            <marker date="1401272143566" expanded="true" signature="38:1767" placeholder="..." />
+            <marker date="1401272143566" expanded="true" signature="371:507" placeholder="..." />
+            <marker date="1401272143566" expanded="true" signature="1774:2644" placeholder="..." />
+            <marker date="1401272143566" expanded="true" signature="1813:2426" placeholder="..." />
+            <marker date="1401272143566" expanded="true" signature="1842:2419" placeholder="..." />
+            <marker date="1401272143566" expanded="true" signature="1870:2410" placeholder="..." />
+            <marker date="1401272143566" expanded="true" signature="1954:2082" placeholder="..." />
+            <marker date="1401272143566" expanded="true" signature="2166:2377" placeholder="..." />
+            <marker date="1401272143566" expanded="true" signature="2191:2364" placeholder="..." />
+            <marker date="1401272143566" expanded="true" signature="2451:2613" placeholder="..." />
+            <marker date="1401272143566" expanded="true" signature="2471:2536" placeholder="..." />
+            <marker date="1401272143566" expanded="true" signature="2495:2526" placeholder="..." />
+            <marker date="1401272143566" expanded="true" signature="2559:2605" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -839,9 +884,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="11" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="0.3979933" vertical-offset="0" max-vertical-offset="1088">
+        <state line="8" column="8" selection-start="202" selection-end="202" vertical-scroll-proportion="0.22742476" vertical-offset="0" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
