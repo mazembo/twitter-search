@@ -1,11 +1,22 @@
 
 
+
+<div class="span3">
+  <div class="well sidebar-nav" id="chart">
+    <h3>Graph</h3>
+ <p> The bar chart will be displayed here </p>
+  </div><!--/.well -->
+</div><!--/span-->
+
 <div class="page-header">
-  <h1> Here will be displayed the search results </h1>
-  <h2> The content of groups : <%= @groups.inspect %> </h2>
-
-
-
+</div>
+<div class="statistics">
+  <h3> Statistics </h3>
+  <p> The total number of tweets retrieved: <%= @groups[4] %> </p>
+  <p> The number of tweets sent within 1 and 15 minutes: <%= @groups[0] %> </p>
+  <p> The total number of tweets sent within 16 and 1 hour: <%= @groups[1] %> </p>
+  <p> The total number of tweets sent within one hour and two hours: <%= @groups[2] %> </p>
+  <p> The total number of tweets sent more than two hours ago: <%= @groups[3] %> </p>
 </div>
 <table class="table table-striped">
   <thead>
@@ -35,5 +46,6 @@
 
   </tbody>
 </table>
+
 
 
