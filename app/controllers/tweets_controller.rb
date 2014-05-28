@@ -5,23 +5,22 @@ class TweetsController < ApplicationController
     else
     client = Twitter::REST::Client.new(consumer_key: "PjRWIbHHcQ6YLLbCMwjM5NoHS", consumer_secret: "yGsm2W3sNPHE6Emfv6AdedyM4NT7I49pcn60pIIYS4KPMhVXl7")
     @tweets = client.search(params[:search])
-    @groups = group_by_time(@tweets)
-
-    end
-
-    #below I group tweets in terms of time tweeted
+    @groups = group_by_time(@tweets) #I group tweets according to time elapsed. I have two versions of the method
 
     end
 
 
-#
+    end
+
+
+# Below is the first version. It is more elegant. However, I have to test whether it is not slower that the other
 # def group_by_time(tweets)
 #
 #   ranges = [0..15, 16..60, 61..120, 121..100000000]
 #   groups = tweets.group_by do |tweet|
 #     ranges.find { |r| r.cover?(((Time.now - tweet.created_at) / 60).to_i) }
 #   end
-#   groups.values.map(&:size)
+#   groups.values.map(&:size) + [tweets.count]
 # end
 # Below is an alternative implementation of group_by_time method.
 
