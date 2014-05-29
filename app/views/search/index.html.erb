@@ -1,7 +1,7 @@
 <div class="title"><h1>Twitter Search and Results Display </h1></div>
 
 <%= form_tag('/tweets', method: 'get') do %>
-    <%= label_tag(:search, 'Search for:') %>
+    <%= label_tag(:search, 'Enter one keyword to search for:') %>
     <%= text_field_tag(:search) %>
     <%= submit_tag('Search') %>
 <% end %>

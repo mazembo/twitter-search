@@ -25,26 +25,26 @@ class TweetsController < ApplicationController
 # Below is an alternative implementation of group_by_time method.
 
   def group_by_time (tweets)
-  @counter = 0
-  @group_one = 0
-  @group_two = 0
-  @group_three = 0
-  @group_four = 0
+  counter = 0
+  group_one = 0
+  group_two = 0
+  group_three = 0
+  group_four = 0
   tweets.each do |tweet|
-    @counter += 1
+    counter += 1
     time_elapsed = ((Time.now - tweet.created_at)/60).to_i
     if Range.new(1, 15).include? (time_elapsed)
-      @group_one += 1
+      group_one += 1
     elsif Range.new(16, 60).include?(time_elapsed)
-      @group_two += 1
+      group_two += 1
     elsif Range.new(61, 120).include?(time_elapsed)
-      @group_three += 1
+      group_three += 1
     else
-      @group_four += 1
+      group_four += 1
     end
 
   end
-  [@group_one, @group_two, @group_three, @group_four, @counter]
+  [group_one, group_two, group_three, group_four, counter]
 end
 end
 
