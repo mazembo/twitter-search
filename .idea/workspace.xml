@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tweets_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tweets_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/tweets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.7920133" vertical-offset="0" max-vertical-offset="1054">
+            <state line="28" column="0" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twitter_search_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="twitter_search_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/twitter_search_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="3" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="19" column="3" selection-start="413" selection-end="413" vertical-scroll-proportion="0.5260586" vertical-offset="0" max-vertical-offset="614">
               <folding />
             </state>
           </provider>
@@ -143,8 +143,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/search/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/twitter_search_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/tweets_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/twitter_search_spec.rb" />
       </list>
     </option>
   </component>
@@ -816,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/twitter_search_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="50" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
@@ -832,7 +825,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tweets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.7920133" vertical-offset="0" max-vertical-offset="1054">
+        <state line="28" column="0" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/twitter_search_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="3" selection-start="413" selection-end="413" vertical-scroll-proportion="0.5260586" vertical-offset="0" max-vertical-offset="614">
           <folding />
         </state>
       </provider>
