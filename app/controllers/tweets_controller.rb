@@ -1,9 +1,10 @@
 class TweetsController < ApplicationController
   def index
     if params[:search].blank?
-      redirect_to :controller => 'search',:action => 'index', :notice => 'You did not provide a search term'
+      flash[:notice] = 'You did not provide a search term'
+      redirect_to :controller => 'search',:action => 'index'
     else
-    client = Twitter::REST::Client.new(consumer_key: "PjRWIbHHcQ6YLLbCMwjM5NoHS", consumer_secret: "yGsm2W3sNPHE6Emfv6AdedyM4NT7I49pcn60pIIYS4KPMhVXl7")
+    client = Twitter::REST::Client.new(consumer_key: 'PjRWIbHHcQ6YLLbCMwjM5NoHS', consumer_secret: 'yGsm2W3sNPHE6Emfv6AdedyM4NT7I49pcn60pIIYS4KPMhVXl7')
     @tweets = client.search(params[:search])
     @groups = group_by_time(@tweets) #I group tweets according to time elapsed. I have two versions of the method
 
@@ -23,6 +24,8 @@ class TweetsController < ApplicationController
 #   groups.values.map(&:size) + [tweets.count]
 # end
 # Below is an alternative implementation of group_by_time method.
+
+private
 
   def group_by_time (tweets)
   counter = 0
