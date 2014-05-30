@@ -5,8 +5,8 @@ ruby "1.9.3"
 gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
-#gem 'sqlite3'
-gem 'pg'
+gem 'sqlite3'
+#gem 'pg'
 # Use SCSS for stylesheets
 
 gem 'sass-rails', '~> 4.0.0'
@@ -56,3 +56,11 @@ gem 'rails_12factor', group: :production
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+#testing gems
+group :test, :development do
+  gem 'rspec-rails'
+end
+
+group :test do
+  gem 'capybara', "2.0.2"
+end
