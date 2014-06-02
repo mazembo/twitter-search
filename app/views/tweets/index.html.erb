@@ -4,7 +4,7 @@
 <div class="span3">
   <div class="well sidebar-nav" id="chart">
     <h3>Graph</h3>
- <p> The bar chart will be displayed here </p>
+
   </div><!--/.well -->
 </div><!--/span-->
 
@@ -46,6 +46,22 @@
 
   </tbody>
 </table>
+<script type="text/javascript">
 
+    var dataArray = <%= [@groups[0],@groups[1], @groups[2], @groups[3] ]%>;
+
+    var canvas = d3.select("#chart")
+            .append("svg")
+            .attr("width", 250)
+            .attr("height", 150)
+    var bars = canvas.selectAll("rect")
+            .data(dataArray)
+            .enter()
+            .append("rect")
+            .attr("width", function(d) {return d;})
+            .attr("height", 15)
+            .attr("y", function (d, i){return i * 30;})
+
+</script>
 
 
