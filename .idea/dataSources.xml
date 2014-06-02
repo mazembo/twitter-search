@@ -15,10 +15,8 @@
     </data-source>
     <data-source source="LOCAL" name="Rails bluereport: test" uuid="12a9059d-a697-46e5-ab15-f7c680b77a9d">
       <driver-ref>postgresql</driver-ref>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/bluereport_test</jdbc-url>
-      <user-name>postgres</user-name>
-      <user-password>dfc4dfcedfc3dfdedfdfdfc1dfdfdfc6dfdf</user-password>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Sites\bluereport\db\test.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>
