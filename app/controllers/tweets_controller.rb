@@ -4,7 +4,7 @@ class TweetsController < ApplicationController
       flash[:notice] = 'You did not provide a search term'
       redirect_to :controller => 'search',:action => 'index'
     else
-    client = Twitter::REST::Client.new(consumer_key: 'PjRWIbHHcQ6YLLbCMwjM5NoHS', consumer_secret: 'yGsm2W3sNPHE6Emfv6AdedyM4NT7I49pcn60pIIYS4KPMhVXl7')
+    client = Twitter::REST::Client.new(consumer_key: '', consumer_secret: '')
     @tweets = client.search(params[:search])
     @groups = group_by_time(@tweets) #I group tweets according to time elapsed. I have two versions of the method
 
